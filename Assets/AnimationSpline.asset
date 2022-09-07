@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed78567e38724d53ad20ee65e888f4a5, type: 3}
+  m_Name: AnimationSpline
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Position: {x: 402.05273, y: 602.064, z: 0}
+    InControl: {x: 503.52228, y: 98.39807, z: 0}
+    OutControl: {x: 300.5832, y: 1105.73, z: 0}
+    HandleType: 0
+  - Position: {x: -1.8540726, y: 595.75037, z: 0}
+    InControl: {x: 96.28259, y: 1101.8907, z: 0}
+    OutControl: {x: -60.446335, y: 1001.8762, z: 0}
+    HandleType: 1
+  - Position: {x: -298.70654, y: 599.4448, z: 0}
+    InControl: {x: -241.36737, y: 1002.15234, z: 0}
+    OutControl: {x: -347.9061, y: 798.67505, z: 0}
+    HandleType: 1
+  - Position: {x: -446.7147, y: 599.27844, z: 0}
+    InControl: {x: -403.5088, y: 795.4367, z: 0}
+    OutControl: {x: -567.5691, y: 589.22815, z: 0}
+    HandleType: 1
+  Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 2.234747
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09042544
+    - serializedVersion: 3
+      time: 0.46127936
+      value: 0.46207282
+      inSlope: 2.4878404
+      outSlope: 2.4878404
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07738239
+      outWeight: 0.091800146
+    - serializedVersion: 3
+      time: 0.82070065
+      value: 0.82125926
+      inSlope: 1.6890439
+      outSlope: 1.6890439
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.25133505
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.2935557
+      outSlope: 1.0084361
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.22053698
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _splineLengths:
+  - 0
+  - 903.3452
+  - 1617.0867
+  - 1962.2518
+  _normalizedNodes:
+  - Position: {x: 0, y: 0, z: 0}
+    InControl: {x: 101.46954, y: -503.66595, z: 0}
+    OutControl: {x: -101.46954, y: 503.66595, z: 0}
+    HandleType: 0
+  - Position: {x: -403.9068, y: -6.3136597, z: 0}
+    InControl: {x: -305.77014, y: 499.82672, z: 0}
+    OutControl: {x: -462.49908, y: 399.8122, z: 0}
+    HandleType: 0
+  - Position: {x: -700.7593, y: -2.6192017, z: 0}
+    InControl: {x: -643.4201, y: 400.08832, z: 0}
+    OutControl: {x: -749.95886, y: 196.61102, z: 0}
+    HandleType: 0
+  - Position: {x: -848.76746, y: -2.7855835, z: 0}
+    InControl: {x: -805.5615, y: 193.37268, z: 0}
+    OutControl: {x: -969.6218, y: -12.835876, z: 0}
+    HandleType: 0
